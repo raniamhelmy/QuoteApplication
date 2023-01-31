@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!---------------------------Fonts used in this App------------------------------------------------------>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--------------------------------Style Files ------------------------------------------>
+    <link
+      rel="stylesheet"
+      href="./Assets/CSS/bootstrap.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./Assets/CSS/all.min.css" type="text/css" />
+    <link rel="stylesheet" href="./Assets/CSS/style.css" type="text/css" />
+
+    <!------------------------------WebSite Title ------------------------------------------>
+
+    <title>Quotes App</title>
+
+    <!-------------------------------Browser logo------------------------------------------->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://logodix.com/logo/1306871.jpg"
+    />
+    
+  </head>
+  <body>
+    <div
+      class="layer h-100 d-flex flex-column justify-content-center align-items-center"
+    >
+      <h1 class="text-center">Quote of the Day</h1>
+      <p class="text-center">
+        Press the button below to recieve a random quote!
+      </p>
+      <button class="mx-auto text-center p-3" onclick="getQuote();">
+        New Quote
+      </button>
+      <figure>
+        <blockquote class="blockquote text-center">
+          <p class="mt-3 mb-3 text-dark" id="quoteOutput"></p>
+        </blockquote>
+        <div class="text mx-auto text-center">
+          <figcaption
+            class="blockquote-footer text-dark pt-3 d-inline text-center mx-auto"
+            id="authorOutput"
+          ></figcaption>
+          <cite title="Source Title" class="d-inline"
+            ><strong id="bookOutput"></strong
+          ></cite>
+        </div>
+      </figure>
+    </div>
+    <!----------------------------- Bootstrap script ------------------------------->
+
+    <script src="./Assets/JS/bootstrap.bundle.min.js"></script>
+
+    <!----------------------------- My script ------------------------------->
+
+    <script src="./Assets/JS/index.js"></script>
+  </body>
+</html>
