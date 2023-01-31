@@ -1,6 +1,6 @@
 # Quote App
 
-This is a simple webpage that shows many Powerfull, Meaningfull and most famous Blockbuster life quotes told by well Kwnon and Famous Authors and Public Figuers. Quotes are generated and represented randomly on screen when a user click on a "New  Quote" Button. This simple project was created as a practice on HTML, CSS, Bootstrap and JS.
+This is a simple webpage that shows many Powerfull, Meaningfull and most famous Blockbuster life quotes told by well Known & Famous Authors and Public Figures. Quotes are generated and represented randomly on screen when a user click on a "New  Quote" Button. This simple project was created as a practice on HTML, CSS, Bootstrap & JS.
 
 ## Website link 
 
